@@ -1,0 +1,25 @@
+Instrucciones para ejecutar el proyecto
+
+Requisitos
+Antes de ejecutar el proyecto, asegúrate de tener instalados los siguientes requisitos:
+
+Maven
+JDK de Java versión 17
+
+Pasos para ejecutar
+
+Ejecuta el script run_task para limpiar el proyecto y ejecutar la aplicación Spring Boot
+
+Abre el siguiente enlace en tu navegador para acceder a la base de datos H2:
+
+http://localhost:8080/h2-console/
+
+Configuración de H2
+Al abrir la consola de H2, asegúrate de ingresar la siguiente configuración:
+
+Driver Class: org.h2.Driver
+JDBC URL: jdbc:h2:mem:testdb
+User Name: sa
+Password: (deja este campo vacío)
+
+Con esta configuración, podrás acceder a la base de datos H2 utilizada por la aplicación.
